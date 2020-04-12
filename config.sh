@@ -1,9 +1,9 @@
 ##########################################################################################
 #
-# Magisk
-# by topjohnwu
+# Pixel Bootanimation
+# by Nishant
 # 
-# This is a template zip for developers
+# For Android 10 (And EvoX)
 #
 ##########################################################################################
 ##########################################################################################
@@ -15,7 +15,7 @@
 # 3. Configure the settings in this file (common/config.sh)
 # 4. For advanced features, add shell commands into the script files under common:
 #    post-fs-data.sh, service.sh
-# 5. For changing props, add your additional/modified props into common/system.prop
+# 5. For changing props, add your additional/modified props into c
 # 
 ##########################################################################################
 
@@ -23,11 +23,10 @@
 # Defines
 ##########################################################################################
 
-# NOTE: This part has to be adjusted to fit your own needs
-
+# NOTE: This part has to be adjusted to fit you
 # This will be the folder name under /magisk
 # This should also be the same as the id in your module.prop to prevent confusion
-MODID=template
+MODID=PixelBootanimation
 
 # Set to true if you need to enable Magic Mount
 # Most mods would like it to be enabled
@@ -50,7 +49,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "  Pixel Bootanimation Magisk   "
   ui_print "*******************************"
 }
 
@@ -73,7 +72,7 @@ REPLACE="
 
 # Construct your own list here, it will overwrite the example
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
-REPLACE="
+REPLACE="/system/product/media
 "
 
 ##########################################################################################
