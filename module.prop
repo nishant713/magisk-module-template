@@ -1,6 +1,6 @@
-id=template
-name=Template Module
+id=PixelBootanimation
+name=Pixel Bootanimation For Android 10
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=nishant713
+description=Systemlessly replace your Bootanimation with the pixel 2 Bootanimation (dark) using Magisk.
